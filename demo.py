@@ -3,12 +3,12 @@
 
 #--------------------------------------------------
 
-from src.logger import logging
-from src.exception import MyException
-import sys
+# from src.logger import logging
+# from src.exception import MyException
+# import sys
 
-try:
-    a = a + 'Z'
-except Exception as e:
-    logging.info(e)
-    raise MyException(e , sys) from e
+# try:
+#     a = a + 'Z'
+# except Exception as e:
+#     logging.info(e)
+#     raise MyException(e , sys) from e
